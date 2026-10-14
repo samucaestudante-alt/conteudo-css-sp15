@@ -1,0 +1,19 @@
+body {
+    background-color: burlywood;
+}
+
+/* Chamando seletor de elemento de classe */
+h4.ex1 {
+    color: crimson;
+    text-align: center;
+}
+
+/* Utilizando o seletor universal */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Agrupando seletores */
+.ex2-h3, .ex2-p {
+    color: antiquewhite;
+}
