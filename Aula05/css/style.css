@@ -1,0 +1,85 @@
+body {
+    background-color: rebeccapurple;
+    color: ghostwhite;
+    font-family: sans-serif;
+}
+
+.center div,
+.flex-start div,
+.flex-end div,
+.space-between div,
+.space-around div,
+.space-evenly div {
+    color: darkmagenta;
+    background-color: ghostwhite;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    /* box-shadow: 8px 10px 10px 0px black; */
+}
+
+/* Utilizando a propriedade justify-content */
+.center {
+    background-color: darkmagenta;
+    border: 8px solid ghostwhite;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.flex-start {
+    background-color: darkmagenta;
+    border: 8px solid ghostwhite;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start; /* Valor padrão */
+    border-radius: 8px;
+}
+
+.flex-end {
+    background-color: darkmagenta;
+    border: 8px solid ghostwhite;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    border-radius: 8px;
+}
+
+.space-between {
+    background-color: darkmagenta;
+    border: 8px solid ghostwhite;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.space-around {
+    background-color: darkmagenta;
+    border: 8px solid ghostwhite;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.space-evenly {
+    background-color: darkmagenta;
+    border: 8px solid ghostwhite;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    border-radius: 8px;
+}
+

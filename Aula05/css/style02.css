@@ -1,0 +1,82 @@
+body {
+    background-color: #F9F9F9;
+    font-family: monospace;
+    color: #2B3641;
+}
+
+.center-1 div,
+.flex-start-1 div,
+.flex-end-1 div,
+.stretch-1 div,
+.center-2 div,
+.space-between-2 div {
+    background-color: #F9F9F9;
+    border: 2px solid #20272F;
+    padding: 20px 30px;
+    color: #20272F;
+    font-weight: bold;    
+}
+
+/* Utilizando a propriedade align-items */
+.center-1 {
+    background-color: #00BD95;
+    padding: 10px;
+    border: 8px solid #2B3641;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: center;
+}
+
+.flex-start-1 {
+    background-color: #00BD95;
+    border: 2px solid #2B3641;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: flex-start;
+}
+
+.flex-end-1 {
+    background-color: #00BD95;
+    border: 2px solid #2B3641;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: flex-end;
+}
+
+.stretch-1 {
+    background-color: #00BD95;
+    border: 2px solid #2B3641;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: stretch;
+}
+
+/* Utilizando a propriedade align-content */
+.center-2 {
+    background-color: #00BD95;
+    border: 8px solid #2B3641;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.space-between-2 {
+    background-color: #00BD95;
+    border: 8px solid #2B3641;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
